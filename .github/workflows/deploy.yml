@@ -40,6 +40,8 @@ jobs:
         working-directory: ./zeema
         env:
           NODE_ENV: production
+          # Set this to true if you're using a custom domain
+          GITHUB_PAGES_CUSTOM_DOMAIN: true
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
