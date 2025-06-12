@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   /* NHS Color Palette */
@@ -37,46 +39,48 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
 
-/* NHS Typography */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--nhs-blue);
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-  line-height: 1.3;
-}
+  /* NHS Typography */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--nhs-blue);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+  }
 
-h1 {
-  font-size: 2.25rem;
-  border-bottom: 4px solid var(--nhs-blue);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
-}
+  h1 {
+    font-size: 2.25rem;
+    border-bottom: 4px solid var(--nhs-blue);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
 
-p {
-  margin-bottom: 1rem;
-  color: var(--nhs-grey-1);
-}
+  p {
+    margin-bottom: 1rem;
+    color: var(--nhs-grey-1);
+  }
 
-strong {
-  color: var(--nhs-blue);
-  font-weight: 600;
-}
+  strong {
+    color: var(--nhs-blue);
+    font-weight: 600;
+  }
 
-ol, ul {
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-}
+  ol, ul {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
 
-li {
-  margin-bottom: 0.5rem;
-  color: var(--nhs-grey-1);
+  li {
+    margin-bottom: 0.5rem;
+    color: var(--nhs-grey-1);
+  }
 }

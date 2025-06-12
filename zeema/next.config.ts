@@ -1,14 +1,19 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === 'production';
+const repoName = 'zeema_page';
+
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
   images: {
     unoptimized: true
   },
-  // Remove this if your repo name is not zeema_page
-  basePath: process.env.NODE_ENV === 'production' ? '/zeema_page' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/zeema_page/' : '',
+  basePath: isProd ? `/${repoName}` : '',
+  assetPrefix: isProd ? `/${repoName}/` : '',
+  experimental: {
+    cssChunking: 'strict',
+  },
 };
 
 export default nextConfig;
