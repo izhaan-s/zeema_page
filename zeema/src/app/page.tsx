@@ -42,7 +42,7 @@ export default function Home() {
                     </span>
                     <div>
                       <p className="mb-1">
-                        Use the subject line: <strong className="text-blue-600">"Account Deletion Request"</strong>
+                        Use the subject line: <strong className="text-blue-600">&ldquo;Account Deletion Request&rdquo;</strong>
                       </p>
                     </div>
                   </li>
@@ -52,7 +52,7 @@ export default function Home() {
                     </span>
                     <div>
                       <p className="mb-1">
-                        We'll verify your identity and delete all data within <strong className="text-blue-600">7 business days</strong>.
+                        We&rsquo;ll verify your identity and delete all data within <strong className="text-blue-600">7 business days</strong>.
                       </p>
                     </div>
                   </li>
@@ -79,7 +79,7 @@ export default function Home() {
                   Need help?
                 </h3>
                 <p className="text-green-800 mb-0">
-                  If you have any questions about the deletion process or need assistance, please don't hesitate to contact our support team.
+                  If you have any questions about the deletion process or need assistance, please don&rsquo;t hesitate to contact our support team.
                 </p>
               </div>
             </div>
