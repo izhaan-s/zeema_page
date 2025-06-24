@@ -26,7 +26,7 @@ export default function Support() {
         
         {/* Support Message */}
         <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-          We're here to help! Reach out to our support team for any questions or assistance.
+          We&rsquo;re here to help! Reach out to our support team for any questions or assistance.
         </p>
 
         {/* Contact Info */}
