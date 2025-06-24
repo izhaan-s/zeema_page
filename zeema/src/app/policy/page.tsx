@@ -89,7 +89,7 @@ export default function PrivacyPolicy() {
 
               <section className="mb-8">
                 <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b border-gray-200 pb-2">
-                  Children's Privacy
+                  Children&rsquo;s Privacy
                 </h2>
                 <div className="text-gray-700">
                   <p>Zeema Health is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us immediately.</p>
